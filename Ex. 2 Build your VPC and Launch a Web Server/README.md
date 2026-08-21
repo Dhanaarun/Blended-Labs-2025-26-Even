@@ -2,9 +2,9 @@
 
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
+* **Name**: Dhanashree A
+* **Register Number**: 212224040065
+* **Date of Submission**: 21.08.2026
 
 ---
 
@@ -86,32 +86,42 @@ Create a simple HTML page and verify that it can be accessed from a web browser 
 ## Workflow (Student Explanation)
 
 (Write the steps you followed in your own words)
-
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
+Step-1:
+I started the lab and logged into the Amazon Web Services Management Console in the N. Virginia (us-east-1) region.
+Step-2:
+I created a custom VPC using Amazon VPC, configured public and private subnets, and enabled an Internet Gateway and NAT Gateway to manage internet connectivity.
+Step-3:
+I added additional public and private subnets in a second Availability Zone and updated the route tables to ensure proper routing for both internet-facing and private traffic.
+Step-4:
+I created a Security Group named Web Security Group and configured it to allow HTTP (port 80) access from anywhere to enable web traffic.
+Step-5:
+I launched an EC2 instance using Amazon EC2 in the public subnet, enabled auto-assign public IP, attached the security group, and selected the required key pair.
+Step-6:
+I configured a user data script to automatically install Apache and deploy a web application, then verified the web server by accessing the instance’s public DNS in a browser.
 
 ---
 
 ## Output Screenshots (Attach 3)
 
 ### Screenshot 1: VPC and Subnet Details
+<img width="1328" height="572" alt="image" src="https://github.com/user-attachments/assets/82f508c9-adbb-4eeb-8ef0-2539428b8b3b" />
 
-(Insert Screenshot Here)
 
 ---
 
 ### Screenshot 2: EC2 Instance Running
 
-(Insert Screenshot Here)
+<img width="1322" height="582" alt="image" src="https://github.com/user-attachments/assets/0d3d15d0-1a5a-4341-b549-54fa687ce1c1" />
 
 ---
 
 ### Screenshot 3: Web Server Output in Browser
 
-(Insert Screenshot Here)
+
+
+
+<img width="1315" height="613" alt="Screenshot 2026-08-21 153408" src="https://github.com/user-attachments/assets/2c9eea83-fa86-4fb4-85c0-1b78602395a3" />
+
 
 ---
 
